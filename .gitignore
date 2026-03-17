@@ -11,3 +11,10 @@
 *.user
 **/impl/
 **/temp/
+**/work/
+*.asm64
+*.rw64
+*_primary.dat
+*_primary.dbs
+*_primary.vhd
+*.rao
