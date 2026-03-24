@@ -1,0 +1,108 @@
+IO_LOC "clk_50m" 11;//时钟  50MHz
+IO_PORT "clk_50m" IO_TYPE=LVCMOS33;
+
+//IO_LOC "sw_key" 75;//sw1  拨码开关
+//IO_LOC "sw[1]" 76;//sw2  拨码开关
+//IO_LOC "sw[2]" 78;//sw3  拨码开关
+//IO_LOC "sw[3]" 79;//sw4  拨码开关
+//IO_PORT "sw_key" IO_TYPE=LVCMOS33;
+//IO_PORT "sw[1]" IO_TYPE=LVCMOS33;
+//IO_PORT "sw[2]" IO_TYPE=LVCMOS33;
+//IO_PORT "sw[3]" IO_TYPE=LVCMOS33;
+
+//IO_LOC "key[0]" 58;//k1  按键开关
+//IO_LOC "key[1]" 59;//k2  按键开关
+//IO_LOC "key[2]" 60;//k3  按键开关
+//IO_LOC "key[3]" 61;//k4  按键开关
+//IO_LOC "key[4]" 62;//k5  按键开关
+//IO_LOC "key[5]" 63;//k6  按键开关
+//IO_LOC "key[6]" 64;//k7  按键开关
+IO_LOC "rst_n " 65;//k8  按键开关  复位按键
+//IO_PORT "key[0]" IO_TYPE=LVCMOS33;
+//IO_PORT "key[1]" IO_TYPE=LVCMOS33;
+//IO_PORT "key[2]" IO_TYPE=LVCMOS33;
+//IO_PORT "key[3]" IO_TYPE=LVCMOS33;
+//IO_PORT "key[4]" IO_TYPE=LVCMOS33;
+//IO_PORT "key[5]" IO_TYPE=LVCMOS33;
+//IO_PORT "key[6]" IO_TYPE=LVCMOS33;
+IO_PORT "rst_n " IO_TYPE=LVCMOS33;
+
+//IO_LOC "led[0]" 23;//led1  
+//IO_LOC "led[1]" 24;//led2  
+//IO_LOC "led[2]" 25;//led3  
+//IO_LOC "led[3]" 26;//led4  
+//IO_LOC "led[4]" 27;//led5  
+//IO_LOC "led[5]" 28;//led6  
+//IO_LOC "led[6]" 29;//led7  
+//IO_LOC "led[7]" 30;//led8  
+//IO_PORT "led[0]" IO_TYPE=LVCMOS33;
+//IO_PORT "led[1]" IO_TYPE=LVCMOS33;
+//IO_PORT "led[2]" IO_TYPE=LVCMOS33;
+//IO_PORT "led[3]" IO_TYPE=LVCMOS33;
+//IO_PORT "led[4]" IO_TYPE=LVCMOS33;
+//IO_PORT "led[5]" IO_TYPE=LVCMOS33;
+//IO_PORT "led[6]" IO_TYPE=LVCMOS33;
+//IO_PORT "led[7]" IO_TYPE=LVCMOS33;
+
+//IO_LOC "rgb1[0]" 113;//rgb_r1
+//IO_LOC "rgb1[1]" 114;//rgb_g1
+//IO_LOC "rgb1[2]" 115;//rgb_b1
+//IO_LOC "rgb2[0]" 106;//rgb_r2
+//IO_LOC "rgb2[1]" 110;//rgb_g2
+//IO_LOC "rgb2[2]" 111;//rgb_b2
+//IO_LOC "rgb3[0]" 101;//rgb_r3
+//IO_LOC "rgb3[1]" 102;//rgb_g3
+//IO_LOC "rgb3[2]" 104;//rgb_b3
+//IO_LOC "rgb4[0]" 98 ;//rgb_r4
+//IO_LOC "rgb4[1]" 99 ;//rgb_g4
+//IO_LOC "rgb4[2]" 100;//rgb_b4  
+//IO_PORT "rgb1[0]" IO_TYPE=LVCMOS33;
+//IO_PORT "rgb1[1]" IO_TYPE=LVCMOS33;
+//IO_PORT "rgb1[2]" IO_TYPE=LVCMOS33;
+//IO_PORT "rgb2[0]" IO_TYPE=LVCMOS33;
+//IO_PORT "rgb2[1]" IO_TYPE=LVCMOS33;
+//IO_PORT "rgb2[2]" IO_TYPE=LVCMOS33;
+//IO_PORT "rgb3[0]" IO_TYPE=LVCMOS33;
+//IO_PORT "rgb3[1]" IO_TYPE=LVCMOS33;
+//IO_PORT "rgb3[2]" IO_TYPE=LVCMOS33;
+//IO_PORT "rgb4[0]" IO_TYPE=LVCMOS33;
+//IO_PORT "rgb4[1]" IO_TYPE=LVCMOS33;
+//IO_PORT "rgb4[2]" IO_TYPE=LVCMOS33;
+
+//IO_LOC "seg_s[3]" 137;//数码管位选
+//IO_LOC "seg_s[2]" 140;//数码管位选
+//IO_LOC "seg_s[1]" 141;//数码管位选
+//IO_LOC "seg_s[0]" 3  ;//数码管位选
+//IO_PORT "seg_s[0]" IO_TYPE=LVCMOS33;
+//IO_PORT "seg_s[1]" IO_TYPE=LVCMOS33;
+//IO_PORT "seg_s[2]" IO_TYPE=LVCMOS33;
+//IO_PORT "seg_s[3]" IO_TYPE=LVCMOS33;
+
+//IO_LOC "seg_ap[0]" 138;//数码管段选
+//IO_LOC "seg_ap[1]" 142;//数码管段选
+//IO_LOC "seg_ap[2]" 9  ;//数码管段选
+//IO_LOC "seg_ap[3]" 7  ;//数码管段选
+//IO_LOC "seg_ap[4]" 12 ;//数码管段选
+//IO_LOC "seg_ap[5]" 139;//数码管段选
+//IO_LOC "seg_ap[6]" 8  ;//数码管段选
+//IO_LOC "seg_ap[7]" 10 ;//数码管 小数点
+//IO_PORT "seg_ap[0]" IO_TYPE=LVCMOS33;
+//IO_PORT "seg_ap[1]" IO_TYPE=LVCMOS33;
+//IO_PORT "seg_ap[2]" IO_TYPE=LVCMOS33;
+//IO_PORT "seg_ap[3]" IO_TYPE=LVCMOS33;
+//IO_PORT "seg_ap[4]" IO_TYPE=LVCMOS33;
+//IO_PORT "seg_ap[5]" IO_TYPE=LVCMOS33;
+//IO_PORT "seg_ap[6]" IO_TYPE=LVCMOS33;
+//IO_PORT "seg_ap[7]" IO_TYPE=LVCMOS33;
+
+
+//IO_LOC "beep" 6;//蜂鸣器
+//IO_PORT "beep" IO_TYPE=LVCMOS33;
+
+IO_LOC "rx" 49;//串口接收端
+IO_LOC "tx" 48;//串口发送端
+IO_PORT "rx" IO_TYPE=LVCMOS33;
+IO_PORT "tx" IO_TYPE=LVCMOS33;
+
+
+
