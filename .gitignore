@@ -12,6 +12,7 @@
 **/impl/
 **/temp/
 **/work/
+**/work1/
 *.asm64
 *.rw64
 *_primary.dat
@@ -20,4 +21,8 @@
 *.rao
 *.ipc
 *.mod
+*.mpf
+*.mti
+*.wlf
+transcript
 **/gowin_prom/*_tmp.v

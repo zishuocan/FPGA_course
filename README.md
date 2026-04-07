@@ -31,6 +31,12 @@ FPGA_github/
 +-- lesson_5/
     +-- spi_lcd_color/
     +-- spi_lcd_photo_railgun/
++-- lesson_6/
+    +-- ad_vpp_1/
+    +-- ad_vpp_2/
+    +-- dac_LFM/
+    +-- dac_square/
+    +-- dac_triangle/
 ```
 
 ## 实验索引
@@ -57,19 +63,24 @@ FPGA_github/
 | lesson_4 | 6_dht11_uart   | DHT11 采集与 UART 发送               | `lesson_4/6_dht11_uart/src`   | 有 (`data_ctrl_tb.v`)    |
 | lesson_5 | spi_lcd_color  | SPI LCD 彩条显示与按键切换           | `lesson_5/spi_lcd_color/src`  | 有 (`key7_filter_tb.v`)  |
 | lesson_5 | spi_lcd_photo_railgun | SPI LCD 图片显示（ROM/取模数据） | `lesson_5/spi_lcd_photo_railgun/src` | 无                 |
+| lesson_6 | ad_vpp_1       | AD/DA 回环采样与峰峰值检测           | `lesson_6/ad_vpp_1/src`       | 有 (`ad_ctrl_tb.v`)      |
+| lesson_6 | ad_vpp_2       | AD/DA 回环采样与有效值检测（UART）   | `lesson_6/ad_vpp_2/src`       | 有 (`ad_ctrl_tb.v`)      |
+| lesson_6 | dac_LFM        | DAC 线性调频波形输出                 | `lesson_6/dac_LFM/src`        | 无                       |
+| lesson_6 | dac_square     | DAC 方波输出                         | `lesson_6/dac_square/src`     | 无                       |
+| lesson_6 | dac_triangle   | DAC 三角波输出                       | `lesson_6/dac_triangle/src`   | 无                       |
 
 ## 硬件与工具快照
 
 - FPGA 目标器件系列：Gowin GW1N-9C。
 - 工程文件中使用的封装型号：`GW1N-UV9EQ144C6/I5`。
-- lesson_2 ~ lesson_5 上板实验包含 Gowin 工程文件（`*.gprj`）与引脚约束文件（`F1_CST.cst`）。
+- lesson_2 ~ lesson_6 上板实验包含 Gowin 工程文件（`*.gprj`）与引脚约束文件（`F1_CST.cst`）。
 - 板级设计时钟基准为 50 MHz（`clk_50m`）。
 
 ## 验证状态概览
 
 - 仓库内大部分实验提供独立 testbench（见实验索引）。
 - 已提供的 testbench 默认支持生成 `.vcd` 波形文件，便于时序与信号行为观察。
-- lesson_2 ~ lesson_5 实验均具备上板工程资源，便于与综合实现流程对齐。
+- lesson_2 ~ lesson_6 实验均具备上板工程资源，便于与综合实现流程对齐。
 
 ## 后续扩展方向
 
